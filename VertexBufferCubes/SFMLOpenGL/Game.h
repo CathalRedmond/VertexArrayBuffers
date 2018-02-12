@@ -31,6 +31,7 @@ private:
 	float rotationAngle = 0.0f;
 
 	void setVertexsPosition();
+	void setVertexsColors();
 
 	Vector3D cubeVertexPosition[8];
 	Vector3D colours[6];
@@ -44,6 +45,4 @@ private:
 
 	Matrix3D m_matrix;
 	bool transform{ false };
-
-
 };
